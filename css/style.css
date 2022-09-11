@@ -3,13 +3,26 @@
     flex: auto;
     padding: 5px;
     padding-left: 10px;
+    display: flex;
 }
 
-.header li {
-    flex: auto;
+.header {
+    display: flex;
+    border: 1px solid red;
+}
+
+.header .div {
+    display: flex;
+
+}
+
+.header .link{
     padding: 5px;
     padding-left: 10px;
-    flex-direction: column;
+    flex-direction: row;
+    flex: 1 1 0%;
+    border: 1px solid red;
+    
 }
 
 
