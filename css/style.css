@@ -1,24 +1,56 @@
 .header  {
     background-color: slategray;
-    
+    flex: auto;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.header li {
+    flex: auto;
+    padding: 5px;
+    padding-left: 10px;
+    flex-direction: column;
 }
 
 
 .section01 {
     background-color: slategray;
+    color: red;
 }
 
 
 .section02 {
     background-color: white;
+    color: red;
 }
 
+.section02 div {
+    background: white;
+    border: 1px solid blue;
+    height: 200px;
+}
 
 .section03 {
     background-color: gray;
+    color: red;
 }
 
 
 .section04 {
     background-color: whtite;
+    color: red;
+}
+
+footer {
+    background-color: slategray;
+    color: red;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+ul {
+    list-style-type: none;
 }
