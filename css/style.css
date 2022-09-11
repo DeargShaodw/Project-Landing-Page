@@ -1,14 +1,26 @@
+img {
+    height: 100px;
+    width: 100px;
+}
+
+* {
+    border: 1px solid red;
+}
+
 .header  {
-    background-color: slategray;
+    background-color: #1F2937;
     flex: auto;
-    padding: 5px;
-    padding-left: 10px;
     display: flex;
+    padding-bottom: 0%;
+}
+
+.header p {
+    font-size: 30px;
+    color: red;
 }
 
 .header {
     display: flex;
-    border: 1px solid red;
 }
 
 .header .div {
@@ -27,8 +39,10 @@
 
 
 .section01 {
-    background-color: slategray;
+    background-color: #1F2937;
     color: red;
+    margin: 0%;
+    padding-top: 0%;
 }
 
 
@@ -44,7 +58,7 @@
 }
 
 .section03 {
-    background-color: gray;
+    background-color: #e5e7eb;
     color: red;
 }
 
@@ -55,15 +69,16 @@
 }
 
 footer {
-    background-color: slategray;
+    background-color: #1F2937;
     color: red;
 }
 
-img {
-    height: 100px;
-    width: 100px;
-}
 
 ul {
     list-style-type: none;
+}
+
+button {
+    size: 30px;
+    border: 2px solid black;
 }
