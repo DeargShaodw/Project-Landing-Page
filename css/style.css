@@ -10,14 +10,18 @@ img {
 
 .header  {
     background-color: #1F2937;
-    flex: auto;
+    /* flex: auto; */
     display: flex;
     padding-bottom: 0%;
+    font-size: 30px;
 }
 
-.header p {
-    font-size: 30px;
+.header .navigation {
+    font-size: 20
+    0px;
     color: red;
+    flex: 1 1 auto;
+    flex-direction: column;
 }
 
 .header {
@@ -87,4 +91,10 @@ button {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    shape-outside: radial-gradient(1px);
+    border-radius: 8px;
+  }
+
+  .footer {
+    display: flex;
   }
