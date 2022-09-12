@@ -91,10 +91,16 @@ img {
     background-color: whtite;
     color: red;
     display: flex;
+    border: 1px solid red;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
 }
 
 .section04 .one {
-
+border: 1px solid red;
+display: flex;
 }
 
 footer {
