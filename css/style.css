@@ -59,7 +59,12 @@ img {
     display: flex;
 }
 
-.section01 img {
+.section01 .three {
+    height: 200px;
+    width: 400px;
+}
+
+.section01 .three img {
     height: 200px;
     width: 400px;
 }
