@@ -3,9 +3,10 @@ img {
     width: 100px;
 }
 
-* {
+/* * {
     border: 1px solid red;
-}
+} */
+
 
 .header  {
     background-color: #1F2937;
@@ -49,6 +50,7 @@ img {
 .section02 {
     background-color: white;
     color: red;
+    flex: 1 1 0;
 }
 
 .section02 div {
@@ -73,10 +75,6 @@ footer {
     color: red;
 }
 
-
-ul {
-    list-style-type: none;
-}
 
 button {
     background-color: blue;
