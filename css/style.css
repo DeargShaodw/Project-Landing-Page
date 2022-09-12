@@ -10,37 +10,25 @@ img {
 
 .header  {
     background-color: #1F2937;
-    /* flex: auto; */
     display: flex;
-    padding-bottom: 0%;
+    padding: 5px;
+    padding-left: 10px;
+    flex-direction: row;
+    flex: 1 1 0%;
+    border: 1px solid red;
     font-size: 30px;
 }
 
 .header .navigation {
-    font-size: 20
+    display: flex;
+    font-size: 20px;
     0px;
     color: red;
     flex: 1 1 auto;
     flex-direction: column;
 }
 
-.header {
-    display: flex;
-}
 
-.header .div {
-    display: flex;
-
-}
-
-.header .link{
-    padding: 5px;
-    padding-left: 10px;
-    flex-direction: row;
-    flex: 1 1 0%;
-    border: 1px solid red;
-    
-}
 
 
 .section01 {
@@ -48,18 +36,29 @@ img {
     color: red;
     margin: 0%;
     padding-top: 0%;
+    display: flex;
+}
+
+.section01 img {
+    height: 200px;
+    width: 400px;
 }
 
 
 .section02 {
+    display: flex;
     background-color: white;
     color: red;
     flex: 1 1 0;
 }
 
+.section02 img {
+    border-radius: 8px;
+    border: 2px solid blue;
+}
+
 .section02 div {
     background: white;
-    border: 1px solid blue;
     height: 200px;
 }
 
@@ -72,6 +71,11 @@ img {
 .section04 {
     background-color: whtite;
     color: red;
+    display: flex;
+}
+
+.section04 .one {
+
 }
 
 footer {
@@ -94,6 +98,7 @@ button {
     shape-outside: radial-gradient(1px);
     border-radius: 8px;
   }
+
 
   .footer {
     display: flex;
