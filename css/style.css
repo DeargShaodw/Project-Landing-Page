@@ -15,7 +15,6 @@ img {
     padding-left: 10px;
     flex-direction: row;
     flex: 1 1 0%;
-    border: 1px solid red;
     font-size: 30px;
 }
 
@@ -24,6 +23,28 @@ img {
     font-size: 20px;
     0px;
     color: red;
+    margin: 10px;
+    flex: 1 1 0%;
+    flex-shrink: 1;
+    margin-left: 500px;
+}
+
+.header .navigation .one {
+    display: flex;
+    border: 10px #1F2937;
+    margin: 10px;
+}
+
+.header .navigation .two {
+    display: flex;
+    border: 10px #1F2937;
+    margin: 10px;
+}
+
+.header .navigation .three {
+    display: flex;
+    border: 10px #1F2937;
+    margin: 10px;
 }
 
 
