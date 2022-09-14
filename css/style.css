@@ -106,6 +106,10 @@ img {
     padding-bottom: 50px;
 }
 
+.section03 .B {
+    padding-left: 550px;
+}
+
 
 .section04 {
     background-color: whtite;
@@ -119,7 +123,6 @@ img {
 }
 
 .section04 .one {
-border: 1px solid red;
 display: flex;
 background-color: blue;
 padding: 30px;
