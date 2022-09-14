@@ -69,12 +69,18 @@ img {
     width: 400px;
 }
 
+.title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
 
 .section02 {
     display: flex;
     background-color: white;
     color: red;
     flex: 1 1 0;
+    flex-wrap: flex;
 }
 
 .section02 img {
