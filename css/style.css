@@ -138,9 +138,20 @@ padding: 30px;
 }
 
 
-footer {
+.footer {
     background-color: #1F2937;
     color: red;
+    font-size: 30px;
+    display: flex;
+}
+
+.footer .one {
+    padding-left: 10px;
+}
+
+.footer .two {
+    padding-left: 390px;
+
 }
 
 
@@ -171,9 +182,4 @@ button {
     cursor: pointer;
     shape-outside: radial-gradient(1px);
     border-radius: 8px;
-  }
-
-
-  .footer {
-    display: flex;
   }
