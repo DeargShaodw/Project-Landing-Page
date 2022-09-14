@@ -113,6 +113,7 @@ img {
 .section04 .one {
 border: 1px solid red;
 display: flex;
+background-color: blue;
 }
 
 footer {
@@ -123,7 +124,7 @@ footer {
 
 button {
     background-color: blue;
-    border: none;
+    border: 1px solid white;
     color: white;
     padding: 15px 32px;
     text-align: center;
