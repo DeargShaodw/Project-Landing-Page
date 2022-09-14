@@ -56,6 +56,9 @@ img {
     color: red;
     margin: 0%;
     padding-top: 0%;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
     display: flex;
 }
 
@@ -81,6 +84,7 @@ img {
     color: red;
     flex: 1 1 0;
     flex-wrap: flex;
+    padding-left: 100px;
 }
 
 .section02 img {
@@ -96,6 +100,10 @@ img {
 .section03 {
     background-color: #e5e7eb;
     color: red;
+    padding-left: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 
@@ -107,7 +115,7 @@ img {
     padding-top: 100px;
     padding-bottom: 100px;
     padding-right: 100px;
-    padding-left: 100px;
+    padding-left: 150px;
 }
 
 .section04 .one {
@@ -115,6 +123,7 @@ border: 1px solid red;
 display: flex;
 background-color: blue;
 }
+
 
 footer {
     background-color: #1F2937;
