@@ -106,8 +106,15 @@ img {
     padding-bottom: 50px;
 }
 
+.section03 .navigation {
+    font-size: 34px;
+    font-weight: bolder;
+}
+
 .section03 .B {
-    padding-left: 550px;
+    padding-left: 400px;
+    font-weight: bolder;
+    font-size: 35px;
 }
 
 
