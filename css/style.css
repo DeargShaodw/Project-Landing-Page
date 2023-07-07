@@ -106,9 +106,8 @@ img {
     padding-bottom: 50px;
 }
 
-.section03 .navigation {
-    font-size: 34px;
-    font-weight: bolder;
+.section03 .B {
+    text-align: center;
 }
 
 .section03 .B {
@@ -133,6 +132,7 @@ img {
 display: flex;
 background-color: blue;
 padding: 30px;
+align-items: center;
 }
 
 .section04 .two {
